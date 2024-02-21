@@ -20,14 +20,14 @@ class Converter:
         button_fg = "#FFF7F1"
 
         # Set up GUI Frame
-        self.temp_frame = Frame(bg = "#83A2FF")
+        self.temp_frame = Frame()
         self.temp_frame.grid()
 
-        self.temp_heading = Label(self.temp_frame, text = "Temperature Convertor", font =("Arial", "16", "bold" ), bg = "#83A2FF", fg = "#001B79")
+        self.temp_heading = Label(self.temp_frame, text = "Temperature Convertor", font =("Arial", "16", "bold" ), fg = "#001B79")
         self.temp_heading.grid(row=0)
 
         instructions = "Please enter a temperature below and then press one of the buttons to convert it from Celsius to Fahrenheit"
-        self.temp_instructions = Label(self.temp_frame, text=instructions, wrap=250, width=40, justify="left", bg = "#83A2FF", fg = "#22092C")
+        self.temp_instructions = Label(self.temp_frame, text=instructions, wrap=250, width=40, justify="left", fg = "#22092C")
         self.temp_instructions.grid(row=1)
 
         self.temp_entry = Entry(self.temp_frame, font=("Arial", "14"))
