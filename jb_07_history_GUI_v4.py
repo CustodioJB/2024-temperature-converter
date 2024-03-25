@@ -11,10 +11,10 @@ class Converter:
         button_fg = "#FFFFFF"
 
         # Five item list
-        # self.all_calculations = ['0 F° is -18C°', '0 C° is 32 F°', '30 F° is -1 C°', '30 C° is 86F°', '40 F° is 4 C°']
+        self.all_calculations = ['0 F° is -18C°', '0 C° is 32 F°', '30 F° is -1 C°', '30 C° is 86F°', '40 F° is 4 C°']
 
         # Six item list
-        self.all_calculations = ['0 F° is -18C°', '0 C° is 32 F°', '30 F° is -1 C°', '30 C° is 86F°', '40 F° is 4 C°', '100 C° is 212 F°']
+        # self.all_calculations = ['0 F° is -18C°', '0 C° is 32 F°', '30 F° is -1 C°', '30 C° is 86F°', '40 F° is 4 C°', '100 C° is 212 F°']
 
         # Set up GUI Frame
         self.temp_frame = Frame(padx=10, pady=10)
